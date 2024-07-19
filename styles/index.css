@@ -1,0 +1,8 @@
+/* index.css */
+
+#index #about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}

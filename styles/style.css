@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 25%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 409px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Specific Page Styles */
+#index #about {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#departments ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#departments ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#departments ul li ul {
+    padding-left: 20px;
+}
+
+#admission-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#admission-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#admission-form input,
+#admission-form select,
+#admission-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#admission-form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#admission-form input[type="submit"]:hover {
+    background: #070101;
+}
+
+#gallery img {
+    width:10%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header img {
+        width: 40px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #departments ul li {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #departments ul li ul {
+        padding-left: 10px;
+    }
+
+    #gallery img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        width: 30px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    #departments ul li {
+        font-size: 20px;
+    }
+}
+
+
+table {
+    width: 20%;
+
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
